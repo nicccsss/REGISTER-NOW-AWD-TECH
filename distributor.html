@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Register Now!</title>
+	<link rel="stylesheet" type="text/css" href="distributor.css">
+	<script src="script.js"></script>
+
+	</head>
+	
+	<body>
+
+		<div class="container">
+			
+			<div class="formBx">
+				<form action="index.html" method="get">
+                  
+
+					<br><br>
+					<h2>Register Now!</h2>
+		
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Last Name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>First Name</span>
+					</div>
+					<div class="inputBox">
+						<input type="email" name="" required="required">
+						<span>Email Address</span>
+					</div>
+					<div class="inputBox">
+						<input type="tel" name="" required="required">
+						<span>Telephone</span>
+					</div>
+
+					<div class="inputBox">
+						<input type="text" name="Address" required>
+						<span>Complete Address</span>
+					</div>
+
+					<div class="inputBox">
+						<textarea required="optional"></textarea>
+						<span>Type your Message Here...</span>
+					</div>
+					<br>
+					<br>
+                    <div class="validId">
+						<label for="validId">Provide any valid ID for validation</label>
+						<br>
+						<label class="custom-file-upload">
+							<input type="file" name="validId" id="validId" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png" onchange="updateAttachmentLabel(this)">
+							<br><br>
+							Attach File
+						</label>
+						<span id="attachmentLabel">No file attached</span>
+					</div>
+					<div class="inputBox">
+						<input type="submit" value="SIGN up" name="">
+					</div>
+					<div class="inputBox">
+						<input type="submit" value="SIGN in" name="">
+					</div>
+
+					
+
+                
+					
+				</form>
+			</div>
+
+		</div>
+
+
+	</body>
+</html>
